@@ -5,6 +5,10 @@ A toast notifier to indicate if there's no internet connectivity.
 ### Usage
 
 > import ConnectionToast from 'react-offline-notify'
+> <ConnectionToast 
+>        onlineText={"Now connected to internet"} 
+>        offlineText={"You are currently offline, your actions won't be saved on server."}
+>  />
 
 ### Props
 
